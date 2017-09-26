@@ -97,7 +97,8 @@ var user2 = {
 //Let's say I, the user, decided to change my name and email address to the following
 // name -> 'Tyler S. McGinnis', email -> 'tyler.mcginnis@devmounta.in'. Make that change.
 
-  //Code Here
+  user2.name = "Tyler S. McGinnis";
+  user2.email = "tyler.mcginnis@devmounta.in";
 
 
 
