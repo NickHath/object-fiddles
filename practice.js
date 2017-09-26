@@ -151,7 +151,9 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
 // Create a function called makePerson which takes in name, birthday, ssn as its
 // parameters and returns a new object with all of the information that you passed in.
 
-  //var makePerson = (name, birthday, ssn) => {name: name, birthday: birthday, ssn: ssn};
+  var makePerson = (name, birthday, ssn) => {
+    return {name: name, birthday: birthday, ssn: ssn};
+  };
   
 
 //NEXT PROBLEM
@@ -160,6 +162,8 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
 
 // Create a function called makeCard which takes in cardNumber, expirationDate, and securityCode to make a Credit Card object and returns that object so that whenever you invoke makeCard, you get a brand new credit card.
 
-  var makeCard = (cardNumber, expirationDate, securityCode) => {cardNumber: cardNumber, expirationDate: expirationDate, securityCode: securityCode};
+  var makeCard = (cardNumber, expirationDate, securityCode) => {
+    return {cardNumber: cardNumber, expirationDate: expirationDate, securityCode: securityCode}
+  };
 
 
