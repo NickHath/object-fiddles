@@ -61,8 +61,10 @@ Using dot notation, add another key (or property) to your backPack object
 that is named color, with the value being the color of your backpack. 
 */
 
-  //Code here
-
+  var backPack = {};
+  var item = "firstPocket";
+  backPack[item] = "chapstick";
+  backPack.color = "#000";
 
 
 
@@ -70,7 +72,7 @@ that is named color, with the value being the color of your backpack.
 
 //After you do the above, alert your entire backPack object.
 
-  //Code here
+  alert(backPack);
 
  
 
