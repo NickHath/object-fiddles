@@ -24,7 +24,7 @@
   var favoriteThings = {
     band: "Andrew Jackson Jihad",
     food: "Chili",
-    person: null,
+    person: "N/A",
     book: "Kafka on the Shore by Haruki Murakami",
     movie: "Lost in Translation",
     holiday: "Halloweeeeen"
