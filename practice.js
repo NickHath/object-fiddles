@@ -151,7 +151,7 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
 // Create a function called makePerson which takes in name, birthday, ssn as its
 // parameters and returns a new object with all of the information that you passed in.
 
-  var makePerson = (name, birthday, ssn) => {name: name, birthday: birthday, ssn: ssn};
+  var makePerson = (name, birthday, ssn) => name: name, birthday: birthday, ssn: ssn;
   
 
 //NEXT PROBLEM
