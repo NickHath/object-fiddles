@@ -120,7 +120,7 @@ var user2 = {
 
 //Create an empty object called methodCollection.
 
-  //Code Here
+  var methodCollection = {};
 
 
 
@@ -131,7 +131,8 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
  which logs 'hello' to the console. 
  */
 
-  //Code Here
+  methodCollection.alertHello = () => alert("hello");
+  methodCollection.logHello = () => console.log("hello");
 
 
 
@@ -139,7 +140,8 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
 
 //Now call your alertHello and logHello methods.
 
-  //Code Here
+  methodCollection.alertHello();
+  methodCollection.logHello();
 
 
 
